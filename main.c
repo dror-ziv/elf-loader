@@ -83,7 +83,6 @@ void relocate(Elf_Shdr* shdr, const Elf_Sym* syms, const char* strings, const ch
 int validate_ehdr_magic(Elf_Ehdr *ehdr) {
     int magic = ELF_MAGIC;
      if(memcmp(&ehdr->e_ident, &magic, sizeof(magic))==0) {
-        printf("magic number is good !\n");
         return 0;
       } else {
           return 1;
