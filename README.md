@@ -4,7 +4,7 @@ The ELF loader parses the ELF file, map it to memory , perform dynamic relocatio
 more of a proof of concept than anything.  
 
 ## build
-simply run
+simply run:
 
 ```
 $ make
@@ -12,7 +12,7 @@ $ make
 
 ## run
 currently can only handle 32-bit executable
-compiled with 
+compiled with :
 
 ```
 $ gcc -m32 -pie -fPIE
