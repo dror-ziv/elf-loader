@@ -4,7 +4,7 @@ The ELF loader parses the ELF file, map it to memory , perform dynamic relocatio
 more of a proof of concept than anything.  
 
 ## build
-simply run:
+simply run :
 
 ```
 $ make
@@ -19,7 +19,7 @@ $ gcc -m32 -pie -fPIE
 ```
 
 ## Load binaries
-load is:
+load is :
 
 ```
 $ ./elfloader <elfbinary> <argv1> <argv2> <argv...>
